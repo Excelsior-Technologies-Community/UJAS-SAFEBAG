@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: #2F6B46; /* Green navbar */
+  padding: 10px 20px;
+}
+
+.logo {
+  
+  align-items: center;
+  color: white;
+  position: relative;
+  left: 50px;
+  
+}
+
+.logo img {
+  width: 10x; 
+  margin-right: 700px;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* 
+.logo p {
+  font-size: 12px;
+  margin-left: 5px;
+  opacity: 0.8;
+} */
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  opacity: 0.8;
+}
+
+.wishlist-count {
+  background-color: yellow;
+  color: black;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 12px;
+  margin-left: 50px;
+  position: relative;
+  right: 50px;
+}
+
+.cart-icon {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 0 0 50px 50px;
+  position: relative;
+  right: 30px;
+  top: 40px;
+}
+
+.cart-icon i {
+  font-size: 18px;
+  color: black;
+}
